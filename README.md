@@ -22,14 +22,13 @@ This project was initalized using `npm` package manager.
  
 ## Packages Explained (Installed Packages)
 ### What is Babel?
-Babel is used to convert ES6 code backwords to compatible versions.
+Babel is used to convert ES6+ code backwords to compatible versions.
 Set up process involves running the following commands:
 ```bash
 npm install --save-dev @babel/core @babel/cli @babel/preset-env
 npm install --save @babel/polyfill
 ```
 Creating a config file named `babel.config.js` in the root of your project with this content:
-
 ### Babel Loader
 This is package that allows traspiling JavaScript files using Babel and Webpack.
 ```bash
@@ -50,8 +49,16 @@ A tool for identifying and reporting on patterns found in ECMAScript/JavaScript 
 ```bash
 npm install eslint --save-dev
 ```
-
 ### eslint-plugin-import
+This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names.
+```bash
+npm install eslint-plugin-import --save-dev
+```
+### Eslint Watch
+A simple command line tool that wraps Eslint and provides file watching and command line improvements to the currently existing project.
+```bash
+npm install eslint-watch --save-dev
+```
 
 ## Other packages (Not Installed)
 
