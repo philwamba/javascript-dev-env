@@ -19,8 +19,7 @@ This project was initalized using `npm` package manager.
 ### Automated Builds
 ### Automated Deployment
 ### Working example app
-
-## Step by Step Guide 
+ 
 ## Packages Explained (Installed Packages)
 ### What is Babel?
 Babel is used to convert ES6 code backwords to compatible versions.
@@ -33,24 +32,34 @@ Creating a config file named `babel.config.js` in the root of your project with 
 
 ### Babel Loader
 This is package that allows traspiling JavaScript files using Babel and Webpack.
-```npm install -D babel-loader @babel/core @babel/preset-env webpack```
+```bash
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+```
 
 ### Webpack 
 A bundler for modules whose main purpose is to bundle JavaScript files for usage in a browser.
-```npm install webpack --save-dev```
+```bash
+npm install webpack --save-dev
+```
 
 ### CSS Loader
 The css-loader interprets `@import` and `url()` like `import/require()` and will resolve them.
 
 ### ESLint
 A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
-```npm install eslint --save-dev```
+```bash
+npm install eslint --save-dev
+```
+
+### eslint-plugin-import
 
 ## Other packages (Not Installed)
 
 ### Nodemon
 A utility that will monitor for any changes in your source and automatically restart your server.
-```npm install nodemon --save-dev```
+```bash
+npm install nodemon --save-dev
+```
 
 ## Quick Start
 1.  Run `npm init -y` to initialize the project.
