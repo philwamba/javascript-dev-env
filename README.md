@@ -24,7 +24,7 @@ This project was initalized using `npm` package manager.
 ### What is Babel?
 Babel is used to convert ES6 code backwords to compatible versions.
 Set up process involves running the following commands:
-```
+```bash
 npm install --save-dev @babel/core @babel/cli @babel/preset-env
 npm install --save @babel/polyfill
 ```
@@ -65,8 +65,14 @@ npm install nodemon --save-dev
 1.  Run `npm init -y` to initialize the project.
 
 2. Add new dev dependencies
-```
+```json
 "devDependencies": {
-
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.2",
+    "webpack": "^4.34.0"
 }
 ```
